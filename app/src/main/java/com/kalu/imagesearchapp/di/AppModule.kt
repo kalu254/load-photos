@@ -23,7 +23,7 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideUnsplashApi(retrofit: Retrofit): UnsplashApi =
+    fun provideUnSplashApi(retrofit: Retrofit): UnsplashApi =
         retrofit.create(UnsplashApi::class.java)
 
 }
